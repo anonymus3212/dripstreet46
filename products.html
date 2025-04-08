@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Prodotti - DRIP STREET</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <img src="logo.png" class="logo" />
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="cart.html">Cart</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="clothes">
+      <h2>Clothes</h2>
+      <div class="product">
+        <p>Maglietta Bianca</p>
+        <button onclick="addToCart('Maglietta Bianca')">Aggiungi al carrello</button>
+      </div>
+    </section>
+
+    <section id="jackets">
+      <h2>Jackets</h2>
+      <div class="product">
+        <p>Giacca Nera</p>
+        <button onclick="addToCart('Giacca Nera')">Aggiungi al carrello</button>
+      </div>
+    </section>
+
+    <section id="shoes">
+      <h2>Shoes</h2>
+      <div class="product">
+        <p>Sneakers Street</p>
+        <button onclick="addToCart('Sneakers Street')">Aggiungi al carrello</button>
+      </div>
+    </section>
+
+    <section id="others">
+      <h2>Others</h2>
+      <div class="product">
+        <p>Cappellino</p>
+        <button onclick="addToCart('Cappellino')">Aggiungi al carrello</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
